@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import Dice from "./Dice";
 import { nanoid } from "nanoid";
 import confetti from "react-confetti";
-import "./App.css";
+import "./style.css";
 
 function App() {
   const [dice, setDice] = useState();
